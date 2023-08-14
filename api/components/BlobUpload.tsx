@@ -22,6 +22,7 @@ const listContainers = async () => {
   for await (const container of blobServiceClient.listContainers()) {
     // figure out how to use metadata, for now using names to compare
     const containerName = container.name;
+    console.log("container connected name: " + containerName);
     const containerNameShort = containerName.replace(/[^a-z0-9]/gi, '');
 
     containers.push(
