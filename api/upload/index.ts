@@ -24,13 +24,7 @@ const httpTrigger: AzureFunction = async function (
 
     // simple validation here
     const headers = [
-      "Tag",
-      "Subquadrat",
-      "SpCode",
-      "DBH",
-      "Htmeas",
-      "Codes",
-      "Comments",
+      "tag","plot_id","subquadrat_id","census_id","stem_dia","htmeas","codes","comments",
     ];
 
     // array for collected errors
