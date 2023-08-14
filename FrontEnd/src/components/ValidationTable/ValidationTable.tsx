@@ -33,13 +33,14 @@ export interface dataStructure {
 // @todo: are these headers really fixed?
 // @todo: Maybe these headers should be passed in as a prop?
 const HEADERS = [
-  { label: 'Tag' },
-  { label: 'Subquadrat' },
-  { label: 'SpCode' },
-  { label: 'DBH' },
-  { label: 'Htmeas' },
-  { label: 'Codes' },
-  { label: 'Comments' },
+  { label: 'tag' },
+  { label: 'plot_id' },
+  { label: 'subquadrat_id' },
+  { label: 'census_id' },
+  { label: 'stem_dia' },
+  { label: 'htmeas' },
+  { label: 'codes' },
+  { label: 'comments' },
 ];
 
 /**
